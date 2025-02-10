@@ -1,5 +1,9 @@
 # buzzline-05-case
 
+# Cole Nollette
+  * 44-671 Module 5
+  * 2/10/25
+
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
 In this example project, we incorporate a relational data store. 
