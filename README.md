@@ -126,6 +126,13 @@ OR
 python3 -m consumers.file_consumer_case
 ```
 
+### Final Task
+
+1. The new consumer was built using the producer's messages, and the goal was to create two visuals and a seperate csv file that recorded only positive messages
+2. The visualizations were built to show how often certain authors present messages, and what the category breakdown is (pie chart percentages)
+3. I then added a .csv file (positive_messages.csv) that calculates the sentiment analysis and only records the positive >0.5 messages
+
+python3 -m consumers.consumer_nollette
 ---
 
 ## Review the Project Code
