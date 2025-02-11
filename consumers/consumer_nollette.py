@@ -1,3 +1,19 @@
+'''
+Consume json messages from a live data file. 
+Insert the processed messages into a database.
+
+Example JSON message
+{
+    "message": "I just shared a meme! It was amazing.",
+    "author": "Charlie",
+    "timestamp": "2025-01-29 14:35:20",
+    "category": "humor",
+    "sentiment": 0.87,
+    "keyword_mentioned": "meme",
+    "message_length": 42
+}
+'''
+
 #Imports
 import json
 import os
