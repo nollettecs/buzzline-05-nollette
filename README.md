@@ -4,10 +4,23 @@
   * 44-671 Module 5
   * 2/10/25
 
+## Streaming Data with Kafka and SQLite
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
-In this example project, we incorporate a relational data store. 
-We use SQLite, but the example could be altered to work with MySQL, PostgreSQL, or MongoDB.
+This project demonstrates how to build a streaming pipeline that:
+
+- Consumes messages from a Kafka topic.
+- Processes and stores data in an SQLite database.
+- Writes positive sentiment messages to a CSV file.
+- Generates real-time visualizations for analysis.
+
+The consumer reads messages from Kafka, extracts relevant information (author, timestamp, sentiment, etc.), and dynamically updates two visualizations:
+
+1. A bar chart displaying message counts per author.
+2. A pie chart representing sentiment distribution by category.
+
+We use SQLite as the data store, but this example could be adapted to work with MySQL, PostgreSQL, or MongoDB.
+
 
 ## VS Code Extensions
 
